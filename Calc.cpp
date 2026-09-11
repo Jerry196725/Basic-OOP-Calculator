@@ -52,9 +52,8 @@ public:
 	{
 		if (var2 == 0)
 		{
-			cout << "Division By Zero" <<
-				endl;
-			return INFINITY;
+			cout << "Division By Zero" <<endl;
+			return 0;
 		}
 		else
 		{
